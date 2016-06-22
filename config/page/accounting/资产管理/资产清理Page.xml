@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="资产清理" url="">
+	<!-- 功能按钮 -->
+	<element id="" name="查询按钮" method="id" value="fir_date"></element>
+	<element id="" name="转总账按钮" method="xpath" value="//a[@onclick='toGL()']"></element>
+	<element id="" name="刷新按钮" method="xpath" value="//a[@onclick='refresh()']"></element>
+	<element id="" name="联查凭证按钮" method="xpath" value="//a[@onclick='openVoucher()']"></element>
+	<element id="" name="删除按钮" method="xpath" value="//a[@onclick='del()']"></element>
+	<!-- 查询面板 -->
+	<element id="" name="查询面板-开始日期选择按钮" method="xpath" value=".//*[@id='start_date']/following-sibling::span/span/a"></element>
+	<element id="" name="查询面板-开始日期选择器" method="xpath" value="(//div[@class='calendar-header'])[2]/../../.."></element>
+	<element id="" name="查询面板-结束日期选择按钮" method="xpath" value=".//*[@id='end_date']/following-sibling::span/span/a"></element>
+	<element id="" name="查询面板-结束日期选择器" method="xpath" value="(//div[@class='calendar-header'])[3]/../../.."></element>
+	<element id="" name="查询面板-资产卡片选择按钮" method="xpath" value=".//*[@id='asscls']/following-sibling::span/span/a"></element>
+	<element id="" name="查询面板-卡片编码输入框" method="xpath" value="//input[@id='qryascode']/following-sibling::*/input[1]"></element>
+	<element id="" name="查询面板-确定按钮" method="xpath" value="//a[@onclick='reloadData()']"></element>
+	<!-- 资产卡片面板 -->
+	<element id="" name="资产卡片面板-卡片列表table" method="xpath" value=".//*[@id='zc_dialog']/div/div/div/div[2]/div[2]/table"></element>
+	<!-- 数据显示区域 -->
+	<element id="" name="清理记录列表table" method="xpath" value=".//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="资产卡片面板-确认按钮" method="xpath" value="//a[@onclick='selectAsset();']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

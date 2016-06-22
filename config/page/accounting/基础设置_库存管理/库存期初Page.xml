@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<!-- 功能按钮 -->
+	<element id="" name="增加按钮" method="id" value="btn_add"></element>
+	<element id="" name="修改按钮" method="id" value="btn_modify"></element>
+	<element id="" name="删除按钮" method="id" value="btn_delete"></element>
+	<element id="" name="保存按钮" method="id" value="btn_save"></element>
+	<element id="" name="取消按钮" method="id" value="btn_cancel"></element>
+	<element id="" name="" method="" value=""></element>
+	
+	<!-- 数据列表 -->
+	<element id="" name="商品列表table" method="xpath" value="(//table)[4]"></element>
+	<element id="" name="" method="" value=""></element>
+	
+	<!-- 提示 -->
+	<element id="" name="确认删除按钮" method="xpath" value="//div[text()='你确定要删除吗?']/following-sibling::div/a[span='确定']"></element>
+	<element id="" name="" method="" value=""></element>
+	<!-- 弹窗 -->
+	<element id="" name="选择科目table" method="xpath" value=".//*[@id='selectInv']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="选择商品面板-保存按钮" method="xpath" value="//a[@onclick='selectInv();']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

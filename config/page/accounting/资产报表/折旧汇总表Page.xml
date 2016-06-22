@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="1" name="查询按钮" method="id" value="typeid1"/>
+	<element id="1" name="查询面板-年份选择按钮" method="xpath" value="//input[@name='startYear']/preceding-sibling::span/a"/>
+	<element id="1" name="查询面板-月份选择按钮" method="xpath" value="//input[@name='startMonth']/preceding-sibling::span/a"/>
+	<element id="1" name="年份选择悬浮层" method="xpath" value="//div[child::div[text()='2016' and contains(@class,'combobox-item') and starts-with(@id,'_easyui_combobox_')]]"/>
+	<element id="1" name="月份选择悬浮层" method="xpath" value="//div[child::div[text()='01' and contains(@class,'combobox-item') and starts-with(@id,'_easyui_combobox_')]]"/>
+	<element id="1" name="查询面板-资产属性选择按钮" method="xpath" value="//select[@id='zcsx']/following-sibling::span/span/a"/>
+	<element id="1" name="资产属性选择悬浮层" method="xpath" value="//div[child::div[text()='固定资产' and contains(@class,'combobox-item') and starts-with(@id,'_easyui_combobox_')]]"/>
+	<element id="1" name="查询面板-资产类别选择按钮" method="xpath" value="//input[@id='zclb']/following-sibling::span/span/a"/>
+	<element id="1" name="资产类别面板-输入框" method="id" value="zcmc"/>
+	<element id="1" name="资产类别面板-确定按钮" method="xpath" value="//div[@id='zclb_dialog']/following-sibling::div//span[text()='确认']"/>
+	<element id="1" name="查询面板-最小类别级次输入框" method="xpath" value="//select[@id='levelq']/following-sibling::span[1]//input[1]"/>
+	<element id="1" name="查询面板-最大类别级次输入框" method="xpath" value="//select[@id='levelqz']/following-sibling::span[1]//input[1]"/>
+	<element id="1" name="查询面板-确定按钮" method="xpath" value=".//*[@id='contid1']//a[text()='确定']"/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+
+</page>

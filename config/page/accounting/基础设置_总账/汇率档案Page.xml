@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="汇率档案" url="">
+	<element id="1" name="汇率档案iframe" method="name" value="汇率档案"></element>
+	<element id="1" name="汇率档案表格" method="xpath"
+		value=".//*[@id='dataGrid']/div/div/div[1]/div[2]/div[2]/table"></element>
+	<element id="1" name="增加按钮" method="xpath" value="//a[@onclick='addFun()']"></element>
+	<element id="1" name="币种选择按钮" method="xpath"
+		value=".//*[@id='fm']/table/tbody/tr[1]/td/span/span/a"></element>
+	<element id="1" name="选择币种表格" method="xpath"
+		value=".//*[@id='dlg']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="选择币种面板-取消按钮" method="xpath"
+		value=".//*[@id='bz-buttons']/a[2]"></element>
+	<element id="1" name="增加汇率信息面板-取消按钮" method="xpath"
+		value=".//*[@id='dlg-buttons']/a[2]"></element>
+	<element id="1" name="选择币种面板-保存按钮" method="xpath"
+		value=".//*[@id='bz-buttons']/a[1]"></element>
+	<element id="1" name="汇率输入框" method="xpath"
+		value=".//*[@id='fm']/table/tbody/tr[2]/td/span/input[1]"></element>
+	<element id="1" name="汇率折算模式选择按钮" method="xpath"
+		value=".//*[@id='fm']/table/tbody/tr[3]/td/span/span/a"></element>
+	<element id="1" name="折算模式一" method="xpath"
+		value="html/body/div[2]/div/div[1]"></element>
+	<element id="1" name="折算模式二" method="xpath"
+		value="html/body/div[2]/div/div[2]"></element>
+	<element id="1" name="是否浮动汇率选择按钮" method="xpath"
+		value=".//*[@id='fm']/table/tbody/tr[4]/td/span/span/a"></element>
+	<element id="1" name="浮动汇率选项一" method="xpath"
+		value="html/body/div[3]/div/div[1]"></element>
+	<element id="1" name="浮动汇率选项二" method="xpath"
+		value="html/body/div[3]/div/div[2]"></element>
+	<element id="1" name="备注输入框" method="xpath"
+		value=".//*[@id='fm']/table/tbody/tr[5]/td/span/input[1]"></element>
+	<element id="1" name="增加汇率信息面板-保存按钮" method="xpath"
+		value=".//*[@id='dlg-buttons']/a[1]"></element>
+	<element id="1" name="修改按钮" method="xpath" value="//a[@onclick='editFun()']"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+</page>

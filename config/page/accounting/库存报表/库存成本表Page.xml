@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="库存成本表" url="">
+	<!-- 查询区域 -->
+	<element id="" name="查询按钮" method="id" value="dbilldate1"/>
+	<element id="" name="查询面板-日期选择按钮" method="xpath" value=".//*[@id='contid1']/div[1]/span/span/a"/>
+	<element id="" name="查询面板-日期时间选择器" method="xpath" value="(//div[@class='calendar-header'])[1]/parent::*/parent::*/parent::*/parent::*"/>
+	<element id="" name="查询面板-商品选择按钮" method="xpath" value=".//*[@id='contid1']/div[2]/span/span/a"/>
+	<element id="" name="查询面板-确定按钮" method="xpath" value="//a[@onclick='loadFun()']"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 弹窗 -->
+	<element id="" name="选择商品table" method="xpath" value=".//*[@id='dlg']/div/div/div/div[2]/div[2]/table"/>
+	<element id="" name="选择商品面板-确认按钮" method="xpath" value="//a[@onclick='selectinv()']"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+
+</page>

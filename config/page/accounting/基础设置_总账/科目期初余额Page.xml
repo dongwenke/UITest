@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="科目期初余额" url="">
+	<element id="1" name="科目期初余额iframe" method="name" value="期初开账-科目期初余额"></element>
+	<element id="1" name="资产类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[1]/a"></element>
+	<element id="1" name="负债类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[2]/a"></element>
+	<element id="1" name="共同类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[3]/a"></element>
+	<element id="1" name="所有者权益类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[4]/a"></element>
+	<element id="1" name="成本类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[5]/a"></element>
+	<element id="1" name="损益类别" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[6]/a"></element>
+
+	<element id="1" name="资产table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[1]/div/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="负债table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[2]/div/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="共同table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[3]/div/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="所有者权益table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[4]/div/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="成本table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[5]/div/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="损益table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[6]/div/div/div/div/div[2]/div[2]/table"></element>
+
+	<element id="1" name="库存现金行" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[1]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]"></element>
+	<element id="1" name="修改按钮" method="xpath" value="//a[@onclick='onBoEdit()']"></element>
+	<element id="1" name="固定资产期初同步按钮" method="id" value="amsysnbutn"></element>
+	<element id="1" name="试算平衡按钮" method="id" value="ssphbutn"></element>
+	<element id="1" name="刷新按钮" method="id" value="refreshbutn"></element>
+	<element id="1" name="打印按钮" method="id" value="printbutn"></element>
+	<element id="1" name="保存按钮" method="id" value="savebutn"></element>
+	<element id="1" name="取消按钮" method="id" value="cancelbutn"></element>
+
+	<element id="1" name="库存现金-本年期初金额" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[1]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[7]/div/table/tbody/tr/td/span/input[1]"></element>
+
+	<element id="1" name="短期借款行" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]"></element>
+
+	<element id="1" name="短期借款-本年期初金额" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[2]/div/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[7]/div/table/tbody/tr/td/span/input[1]"></element>
+	<element id="1" name="试算平衡信息面板-年平衡" method="xpath"
+		value=".//*[@id='ssphtable']/tbody/tr[1]/th[1]"></element>
+	<element id="1" name="试算平衡信息面板-取消按钮" method="xpath"
+		value=".//*[@id='dlg-buttons']/a"></element>
+
+	<element id="1" name="提示信息" method="xpath" value="//div[contains(@class,'tips')]"></element>
+	<element id="1" name="询问面板-确定按钮" method="xpath"
+		value="//div[preceding-sibling::div[text()='您确定要固定资产期初同步？']]/a[1]"></element>
+	<element id="1" name="打印面板-确定按钮" method="xpath"
+		value="//a[@onclick='doPrint()']"></element>
+	<element id="1" name="币别输入框" method="xpath" value="html/body/div[1]/div[1]/div/div[1]/span"></element>
+	<element id="1" name="币别选项-美元" method="xpath" value="//div[contains(@class,'combobox-item')][contains(.,'美元')]"></element>
+	<element id="1" name="币别选项-人民币" method="xpath" value="//div[contains(@class,'combobox-item')][contains(.,'人民币')]"></element>
+	<element id="1" name="币别选项-综合本位币" method="xpath" value="//div[contains(@class,'combobox-item')][contains(.,'综合本位币')]"></element>
+	
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+</page>

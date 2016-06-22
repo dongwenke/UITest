@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="登录页面" url="">
+	<element id="1" name="凭证管理iframe" method="name" value="凭证管理"></element>
+	<element id="1" name="全部凭证复选框" method="xpath"
+		value=".//*[@id='pzGridD']/div/div/div[1]/div[2]/div[1]/div/table/tbody/tr/td[1]/div/input"></element>
+	<element id="1" name="审核按钮" method="xpath" value="//a[@onclick='audit()']"></element>
+	<element id="1" name="记账按钮" method="xpath" value="//a[@onclick='jz()']"></element>
+	<element id="1" name="操作提示" method="xpath" value="html/body/div[19]"></element>
+	<element id="1" name="设置页面显示数按钮" method="xpath"
+		value=".//*[@id='pzGridD']/div/div/div[2]/table/tbody/tr/td[1]/select"></element>
+	<element id="1" name="页数选项1000" method="xpath"
+		value=".//*[@id='pzGridD']/div/div/div[2]/table/tbody/tr/td[1]/select/option[7]"></element>
+	<element id="1" name="反审核按钮" method="id" value="btn_fsh"></element>
+	<element id="1" name="取消记账按钮" method="id" value="btn_qxjz"></element>
+	<element id="1" name="查询按钮" method="id" value="typeid1"></element>
+	<element id="1" name="凭证查询-期间" method="id" value="r2"></element>
+	<element id="1" name="开始年份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[1]/div[2]/font[1]/span/span/a"></element>
+	<element id="1" name="开始年份选择悬浮层" method="xpath"
+		value="(//div[child::div[text()='2016' and starts-with(@id,'_easyui_combobox') and contains(@class,'combobox-item')]])[1]"></element>
+	<element id="1" name="开始月份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[1]/div[2]/font[2]/span/span/a"></element>
+	<element id="1" name="开始月份选择悬浮层" method="xpath"
+		value="(//div[child::div[text()='01' and starts-with(@id,'_easyui_combobox') and contains(@class,'combobox-item')]])[1]"></element>
+	<element id="1" name="结束年份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[1]/div[2]/font[4]/span/span/a"></element>
+	<element id="1" name="结束年份选择悬浮层" method="xpath"
+		value="(//div[child::div[text()='2016' and starts-with(@id,'_easyui_combobox') and contains(@class,'combobox-item')]])[2]"></element>
+	<element id="1" name="结束月份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[1]/div[2]/font[5]/span/span/a"></element>
+	<element id="1" name="结束月份选择悬浮层" method="xpath"
+		value="(//div[child::div[text()='01' and starts-with(@id,'_easyui_combobox') and contains(@class,'combobox-item')]])[2]"></element>
+	<element id="1" name="查询面板-开始凭证号输入框" method="xpath"
+		value=".//*[@id='contid1']/div[2]/font[1]/span/input[1]"></element>
+	<element id="1" name="查询面板-结束凭证号输入框" method="xpath"
+		value=".//*[@id='contid1']/div[2]/font[3]/span/input[1]"></element>
+	<element id="1" name="查询面板-状态选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[3]/font/span/span/a"></element>
+	<element id="1" name="查询面板-状态选项未审核" method="xpath"
+		value="html/body/div[6]/div/div[2]"></element>
+	<element id="1" name="查询面板-状态选项已审核" method="xpath"
+		value="html/body/div[6]/div/div[3]"></element>
+	<element id="1" name="查询面板-状态选项全部" method="xpath"
+		value="html/body/div[6]/div/div[1]"></element>
+	<element id="1" name="查询面板-科目输入框" method="xpath"
+		value=".//*[@id='contid1']/div[4]/span/input[1]"></element>
+	<element id="1" name="查询面板-摘要输入框" method="xpath"
+		value="//input[following-sibling::input[@name='zy']]"></element>
+	<element id="1" name="查询面板-最小金额输入框" method="xpath"
+		value="//input[following-sibling::input[@name='mny1']]"></element>
+	<element id="1" name="查询面板-最大金额输入框" method="xpath"
+		value="//input[following-sibling::input[@name='mny2']]"></element>
+	<element id="1" name="查询面板-确定按钮" method="xpath"
+		value="//a[@onclick='reloadData()']"></element>
+	<element id="1" name="全选按钮" method="xpath"
+		value="//a[@onclick='selectAll()']"></element>
+	<element id="1" name="全消按钮" method="xpath" value="//a[@onclick='unSelect()']"></element>
+	<element id="1" name="刷新按钮" method="xpath" value="//a[@onclick='refresh()']"></element>
+	<element id="1" name="打印按钮" method="xpath" value="//a[@onclick='print()']"></element>
+	<element id="1" name="打印面板-打印按钮" method="xpath"
+		value=".//*[@id='print_buttons']/a[1]"></element>
+	<element id="1" name="导出按钮" method="xpath"
+		value="//a[@onclick='excelReport()']"></element>
+	<element id="1" name="全选复选框" method="xpath" value=".//*[@id='pzGridD']/div/div/div[1]/div[2]/div[1]/div/table/tbody/tr/td[1]/div/input"></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+
+</page>

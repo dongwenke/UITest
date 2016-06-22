@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="1" name="查询按钮" method="id" value="fir_date"/>
+	<element id="1" name="查询面板-日期选择按钮" method="xpath" value="//*[@id='start_date']/following-sibling::span//a"/>
+	<element id="1" name="查询面板-时间选择器" method="xpath" value="(//div[@class='calendar-header']/parent::div)[1]"/>
+	<element id="1" name="查询面板-确定按钮" method="xpath" value=".//*[@id='qrydialog']/div/font/p/a[1]"/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+
+</page>

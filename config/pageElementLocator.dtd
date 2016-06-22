@@ -1,0 +1,14 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT page (element)*>
+<!ATTLIST page
+  id CDATA #REQUIRED
+  name CDATA #REQUIRED
+  url CDATA #REQUIRED>
+
+<!ELEMENT element EMPTY>
+<!ATTLIST element 
+  id CDATA #REQUIRED
+  name CDATA #REQUIRED
+  method (xpath|id|name|cssSelector) #REQUIRED
+  value CDATA #REQUIRED>

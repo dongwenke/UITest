@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="" name="工作量管理" url="">
+	<element id="" name="查询按钮" method="id" value="typeid1"></element>
+	<element id="" name="查询面板-期间年份选择按钮" method="xpath" value=".//*[@id='startYear']/following-sibling::span/span/a"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="查询面板-期间月份选择按钮" method="xpath" value=".//*[@id='startMonth']/following-sibling::span/span/a"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="查询面板-公司选择按钮" method="xpath" value=".//*[@id='corp']/following-sibling::span/span/a"></element>
+	<element id="" name="选择公司面板-公司列表table" method="xpath" value=".//*[@id='cp_dialog']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="选择公司面板-确认按钮" method="xpath" value="//a[@onclick='selectcorp()']"></element>
+	<element id="" name="查询面板-确定按钮" method="xpath" value="//a[@onclick='reloadData()']"></element>
+	<element id="" name="工作量列表table" method="xpath" value=".//*[@id='dataGrid']/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="" name="修改按钮" method="xpath" value="//a[@onclick='edit()']"></element>
+	<element id="" name="保存按钮" method="xpath" value="//a[@onclick='save()']"></element>
+	<element id="" name="刷新按钮" method="xpath" value="//a[@onclick='refresh()']"></element>
+	<element id="" name="取消按钮" method="xpath" value="//a[@onclick='cancel()']"></element>
+	<element id="" name="清理记录列表table" method="xpath" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+
+</page>

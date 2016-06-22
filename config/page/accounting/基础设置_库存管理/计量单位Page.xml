@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<!-- 功能按钮 -->
+	<element id="" name="增加按钮" method="id" value="onAdd"/>
+	<element id="" name="修改按钮" method="id" value="onEdit"/>
+	<element id="" name="删除按钮" method="id" value="onDelete"/>
+	<element id="" name="保存按钮" method="id" value="onSave"/>
+	<element id="" name="取消按钮" method="id" value="onCancel"/>
+	<element id="" name="" method="" value=""/>
+		
+	<!-- 数据表格区域 -->
+	<element id="" name="单位列表table" method="xpath" value="(//table)[4]"></element>
+	<element id="" name="单位列表数table" method="xpath" value="(//table)[2]"></element>
+	<element id="" name="" method="" value=""></element>
+	
+	<!-- 提示面板 -->
+	<element id="" name="确认删除按钮" method="xpath" value="//div[text()='你确定要删除吗?']/following-sibling::div/a[*='确定']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

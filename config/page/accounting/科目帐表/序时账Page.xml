@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="序时账" url="">
+	<element id="1" name="序时账iframe" method="name" value="序时账"></element>
+	<element id="1" name="查询按钮" method="id" value="typeid1" />
+	<element id="1" name="打印按钮" method="xpath" value="//a[@onclick='print()']" />
+	<element id="1" name="导出按钮" method="xpath"
+		value="//a[@onclick='excelReport()']" />
+
+	<element id="1" name="查询面板-确定按钮" method="xpath"
+		value=".//*[@id='contid1']/p/a[1]" />
+	<element id="1" name="打印面板-打印按钮" method="xpath"
+		value=".//a[@onclick='doPrint()']" />
+</page>

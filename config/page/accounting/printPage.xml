@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="打印页面" url="">
+	<element id="1" name="打印按钮" method="id" value="print"></element>
+
+</page>

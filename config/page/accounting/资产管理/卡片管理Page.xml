@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="卡片管理" url="">
+	<element id="1" name="卡片编号" method="name" value="ascode"></element>
+	<element id="1" name="录入期间选择按钮" method="xpath" value="//input[@name='dperiod']/../span/a"></element>
+	<element id="1" name="录入期间时间选择器" method="xpath" value="(//div[@class='calendar-header']/../../../..)[3]"></element>
+	<element id="1" name="资产编码输入框" method="xpath" value="//input[@name='zcbm']/../input[@type='text']"></element>
+	<element id="1" name="资产名称输入框" method="xpath" value="//input[@name='asname']/../input[@type='text']"></element>
+	<element id="1" name="资产类别选择按钮" method="xpath" value="//input[@name='assetcate']/../span/a"></element>
+	<element id="1" name="资产类别面板-输入框" method="id" value="zcmc"></element>
+	<element id="1" name="资产类别面板-确定按钮" method="xpath" value="//div[@id='selectZclb']/../div[3]/a[contains(.,'确认')]"></element>
+	<element id="1" name="开始使用日期选择按钮" method="xpath" value="//input[@name='adate']/../span/a"></element>
+	<element id="1" name="开始使用日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/../../../..)[4]"></element>
+	<element id="1" name="开始使用日期输入框" method="name" value="adate"></element>
+	
+	<element id="1" name="折旧方式下拉按钮" method="xpath" value="//input[@name='zjtype']/../span/a"></element>
+	<element id="1" name="折旧方式-平均年限法" method="xpath" value="//div[text()='平均年限法'][contains(@class,'combobox-item')]"></element>
+	<element id="1" name="折旧方式-工作量法" method="xpath" value="//div[text()='工作量法'][contains(@class,'combobox-item')]"></element>
+	<element id="1" name="折旧方式-双倍余额递减法" method="xpath" value="//div[text()='双倍余额递减法'][contains(@class,'combobox-item')]"></element>
+	<element id="1" name="预计使用年限输入框" method="xpath" value="//input[@name='ulimit']/../input[@type='text']"></element>
+	<element id="1" name="工作总量输入框" method="xpath" value="//input[@name='gzzl']/../input[@type='text']"></element>
+	<element id="1" name="工作量单位输入框" method="xpath" value="//input[@name='gzldw']/../input[@type='text']"></element>
+	<element id="1" name="固定(无形)资产科目选择按钮" method="xpath" value="//input[@name='zckm']/../span/a"></element>
+	<element id="1" name="选择科目面板" method="xpath" value="//div[@id='selectKm']/.."></element>
+	<element id="1" name="结算科目选择按钮" method="xpath" value="//input[@name='jskm']/../span/a"></element>
+	<element id="1" name="折旧(摊销)科目选择按钮" method="xpath" value="//input[@name='jtzjkm']/../span/a"></element>
+	<element id="1" name="折旧(摊销)费用科目选择按钮" method="xpath" value="//input[@name='zjfykm']/../span/a"></element>
+	<element id="1" name="原值输入框" method="xpath" value="//input[@name='atmny']/../input[@type='text']"></element>
+	<element id="1" name="是否期初选择按钮" method="xpath" value="//input[@name='periodbegin']/../span/a"></element>
+	<element id="1" name="是否期初选项-是" method="xpath" value="(//*[starts-with(@id,'_easyui_combobox_i') and text()='否']/..)[4]/div[text()=' 是']"></element>
+	<element id="1" name="是否期初选项-否" method="xpath" value="(//*[starts-with(@id,'_easyui_combobox_i') and text()='否']/..)[4]/div[text()='否']"></element>
+	<element id="1" name="期初信息备注输入框" method="xpath" value="//input[@name='memo']/../input[@type='text']"></element>
+	
+	<!-- 列表显示功能按钮 -->
+	<element id="1" name="列表显示-增加按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='cardAdd()']"></element>
+	<element id="1" name="列表显示-修改按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='edit()']"></element>
+	<element id="1" name="列表显示-删除按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='delData()']"></element>
+	<element id="1" name="列表显示-刷新按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='onRefresh()']"></element>
+	<element id="1" name="列表显示-复制按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='copy()']"></element>
+	<element id="1" name="列表显示-卡片整理按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='doOrder()']"></element>
+	<element id="1" name="列表显示-资产清理" method="xpath" value="//div[@id='cardList']//a[@onclick='updateAssetClear()']"></element>
+	<element id="1" name="列表显示-卡片显示按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='onCard()']"></element>
+	<element id="1" name="列表显示-转总账按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='onBoToGL()']"></element>
+	<element id="1" name="列表显示-联查凭证按钮" method="xpath" value="//div[@id='cardList']//a[@onclick=' openVoucher()']"></element>
+	<element id="1" name="列表显示-联查折旧明细按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='lcData()']"></element>
+	<element id="1" name="列表显示-导出按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='expExcel()']"></element>
+	<element id="1" name="列表显示-导入按钮" method="xpath" value="//div[@id='cardList']//a[@onclick='impExcel()']"></element>
+	
+	<!-- 卡片显示功能按钮 -->
+	<element id="1" name="卡片显示-增加按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='cardAdd()']"></element>
+	<element id="1" name="卡片显示-修改按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='edit()']"></element>
+	<element id="1" name="卡片显示-删除按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='delData()']"></element>
+	<element id="1" name="卡片显示-刷新按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='onRefresh()']"></element>
+	<element id="1" name="卡片显示-复制按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='copy()']"></element>
+	<element id="1" name="卡片显示-资产清理" method="xpath" value="//div[@id='cardAdd']//a[@onclick='updateAssetClear()']"></element>
+	<element id="1" name="卡片显示-列表显示按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='onList()']"></element>
+	<element id="1" name="卡片显示-转总账按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='onBoToGL()']"></element>
+	<element id="1" name="卡片显示-联查折旧明细按钮" method="xpath" value="//div[@id='cardAdd']//a[@onclick='lcData()']"></element>
+	
+	<element id="1" name="保存按钮" method="xpath" value="//a[@onclick='save()']"></element>
+	<element id="1" name="取消按钮" method="xpath" value="//a[@onclick='cardCancel()']"></element>
+	<element id="1" name="资产清理按钮卡片显示" method="xpath" value="//div[@id='cardAdd']//a[@onclick='updateAssetClear()']"></element>
+	<element id="1" name="资产清理按钮列表显示" method="xpath" value="//div[@id='cardList']//a[@onclick='updateAssetClear()']"></element>
+	<element id="1" name="刷新按钮卡片显示" method="xpath" value="//div[@id='cardAdd']//a[@onclick='onRefresh()']"></element>
+	<element id="1" name="刷新按钮列表显示" method="xpath" value="//div[@id='cardList']//a[@onclick='onRefresh()']"></element>
+	
+	<element id="1" name="查询按钮" method="id" value="jqj"></element>
+	<element id="1" name="查询面板-起始使用日期选择按钮" method="xpath" value="//input[@id='startDate']/following-sibling::span/span/a"></element>
+	<element id="1" name="查询面板-起始使用日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/../../../..)[1]"></element>
+	<element id="1" name="查询面板-结束使用日期选择按钮" method="xpath" value="//input[@id='endDate']/following-sibling::span/span/a"></element>
+	<element id="1" name="查询面板-结束使用日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/../../../..)[2]"></element>
+	<element id="1" name="查询面板-卡片编码输入框" method="id" value="qryascode"></element>
+	<element id="1" name="查询面板-资产名称输入框" method="id" value="qryasname"></element>
+	<element id="1" name="查询面板-资产类别选择按钮" method="xpath" value="//input[@id='qry_assetcate']/../span/span/a"></element>
+	<element id="1" name="查询面板-是否期初输入框" method="xpath" value=".//*[@id='qryqcvalue']/../span/input[not(@type='hidden')]"></element>
+	<element id="1" name="查询面板-是否清理输入框" method="xpath" value=".//*[@id='qryisclear']/../span/input[not(@type='hidden')]"></element>
+	<element id="1" name="查询面板-是否已转总账输入框" method="xpath" value=".//*[@id='qryistogl']/../span/input[not(@type='hidden')]"></element>
+	<element id="1" name="查询面板-确定按钮" method="xpath" value=".//*[@id='qrydialog']//a[@onclick='reloadData()']"></element>
+	
+	<element id="1" name="状态信息-转总账输入框" method="name" value="togl"></element>
+	<element id="1" name="" method="" value="//div[@id='cardAdd']//a[@onclick='onBoToGL()']"></element>
+	<element id="1" name="卡片列表table" method="xpath" value="//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+
+</page>

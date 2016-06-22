@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solution id="0" name="dzf-auto">
+	<project name="财务核算系统" address="http://172.16.2.142:8090/dzfkj/"
+		pages="accounting" />
+	<project name="大账房后台" address="http://172.16.2.142:8090/jituan/"
+		pages="backend" />
+	<project name="会计公司管理系统" address="http://172.16.2.142:8090/dzfadmin/"
+		pages="bookkeeping" />
+</solution>

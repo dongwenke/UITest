@@ -1,0 +1,89 @@
+<page id="1" name="会计科目设置" url="">
+	<element id="1" name="会计科目iframe" method="name" value="会计科目"></element>
+	<!-- 上方功能按钮 -->
+	<element id="1" name="增加按钮" method="id" value="btn_add"></element>
+	<element id="1" name="修改按钮" method="id" value="btn_modify"></element>
+	<element id="1" name="删除按钮" method="id" value="btn_delete"></element>
+	<element id="1" name="封存按钮" method="id" value="btn_seal"></element>
+	<element id="1" name="取消封存按钮" method="id" value="btn_unseal"></element>
+	<element id="1" name="刷新按钮" method="id" value="btn_refresh"></element>
+	
+	<!-- 外汇核算币种选择面板 -->
+	<element id="1" name="外汇核算币种面板table" method="xpath" value="//*[@id='whhsRefDlg']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="外汇核算币种选择面板-确定按钮" method="xpath" value="//div[@id='whhsRefDlg']/following-sibling::div/a[*='确认']"></element>
+	
+	<!-- 修改面板 -->
+	<element id="1" name="科目修改面板-外汇核算币种输入框" method="xpath" value="//input[@name='whhsmc']"></element>
+	<element id="1" name="科目修改面板-科目编码输入框" method="xpath" value="//input[@name='kmbm']/preceding-sibling::input"></element>
+	<element id="1" name="科目修改面板-科目名称输入框" method="xpath" value="//input[@name='kmmc']/preceding-sibling::input"></element>
+	<element id="1" name="修改科目面板-是否数量核算复选框" method="id" value="sfsz"></element>
+	<element id="1" name="修改科目面板-是否数量核算输入框" method="xpath" value="//input[following-sibling::input[@name='sfsz']]"></element>
+	<element id="1" name="修改科目面板-计量单位输入框" method="xpath" value=""></element>
+	<element id="1" name="是修改科目面板-否数量核算标签" method="xpath" value=".//th[text()='是否数量核算']"></element>
+	<element id="1" name="修改科目面板-是否外汇核算复选框" method="id" value="whhs"></element>
+	<element id="1" name="修改科目面板-外汇核算币种输入框" method="name" value="whhsmc"></element>
+	<element id="1" name="修改科目面板-外汇核算币种选择按钮" method="xpath" value="//a[parent::*[following-sibling::input[@name='whhsmc']]]"></element>
+	
+	<element id="1" name="修改科目面板-是否数量核算输入框" method="name" value="sfsz"></element>
+	<element id="1" name="修改科目面板-保存按钮" method="xpath" value=".//*[@id='dlg-Modifybuttons']/a[1]"></element>
+	<element id="1" name="修改科目面板-取消按钮" method="xpath" value=".//*[@id='dlg-Modifybuttons']/a[2]"></element>
+	
+	<element id="1" name="" method="xpath" value=""></element>
+	<element id="1" name="" method="xpath" value=""></element>
+	<element id="1" name="" method="xpath" value=""></element>
+	<element id="1" name="" method="xpath" value=""></element>
+	<element id="1" name="" method="xpath" value=""></element>
+		
+
+	<!-- 内容表格区域 -->
+	<element id="1" name="资产按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'资产')]/a"></element>
+	<element id="1" name="负债按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'负债')]/a"></element>
+	<element id="1" name="共同按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'共同')]/a"></element>
+	<element id="1" name="所有者权益按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'所有者权益')]/a"></element>
+	<element id="1" name="成本按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'成本')]/a"></element>
+	<element id="1" name="损益按钮" method="xpath"
+		value=".//*[@id='km_tabs']/div[1]/div[3]/ul/li[contains(.,'损益')]/a"></element>
+		
+	<element id="1" name="资产左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[1]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="资产右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[1]/div/div/div/div/div[2]/div[2]/table"></element>
+		
+	<element id="1" name="负债左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[2]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="负债右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[2]/div/div/div/div/div[2]/div[2]/table"></element>
+		
+	<element id="1" name="共同左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[3]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="共同右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[3]/div/div/div/div/div[2]/div[2]/table"></element>
+		
+	<element id="1" name="所有者权益左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[4]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="所有者权益右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[4]/div/div/div/div/div[2]/div[2]/table"></element>
+		
+	<element id="1" name="成本左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[5]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="成本右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[5]/div/div/div/div/div[2]/div[2]/table"></element>
+		
+	<element id="1" name="损益左table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[6]/div/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="1" name="损益右table" method="xpath"
+		value=".//*[@id='km_tabs']/div[2]/div[6]/div/div/div/div/div[2]/div[2]/table"></element>
+
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+	<element id="1" name="" method="id" value="user_code"></element>
+</page>

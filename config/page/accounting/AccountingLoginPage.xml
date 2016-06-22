@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="登录页面" url="http://172.16.2.142:8090/dzfkj/">
+	<element id="1" name="用户名输入框" method="id" value="user_code"></element>
+	<element id="2" name="密码输入框" method="id" value="user_password"></element>
+	<element id="2" name="验证码输入框" method="id" value="verify"></element>
+	<element id="3" name="登录按钮" method="id" value="loginBtn"></element>
+	<element id="4" name="已登录提示" method="xpath"
+		value="//div[text()='该用户已经登陆，是否强制退出？']"></element>
+	<element id="5" name="确认强制退出" method="xpath"
+		value="//div[text()='该用户已经登陆，是否强制退出？']/following-sibling::div/a[1]"></element>
+	<element id="7" name="确定所选公司" method="xpath"
+		value="//*[@id='cp_buttons']/a[1]"></element>
+	<element id="7" name="选择公司面板-搜索输入框" method="id" value="unitcode"></element>
+
+	<element id="7" name="选择公司面板-公司列表" method="xpath"
+		value=".//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="6" name="选择公司面板-公司列表1" method="xpath"
+		value="//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table/tbody/tr[1]"></element>
+	<element id="1" name="用户信息" method="id" value="user_info"></element>
+</page>

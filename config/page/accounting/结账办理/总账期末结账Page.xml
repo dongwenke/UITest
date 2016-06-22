@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="1" name="总账期末结账iframe" method="name" value="总账期末结账"></element>
+	<element id="1" name="期间查询" method="id" value="typeid1"></element>
+	<element id="1" name="查询确定按钮" method="xpath"
+		value=".//*[@id='contid1']/p/a[1]"></element>
+	<element id="1" name="全选复选框" method="xpath"
+		value=".//*[@id='dataGrid']/div/div/div/div[2]/div[1]/div/table/tbody/tr/td[1]/div/input"></element>
+	<element id="1" name="结账按钮" method="xpath" value="//a[@onclick='onsettle()']"></element>
+	<element id="" name="结账完成状态" method="xpath"
+		value=".//*[@id='datagrid-row-r1-2-0']/td[10]/div"></element>
+	<element id="1" name="反结账按钮" method="id" value="btn-fanxuan"></element>
+
+
+</page>

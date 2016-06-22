@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="登录页面" url="">
+	<element id="1" name="期末处理iframe" method="name" value="期末处理"></element>
+	<element id="1" name="查询按钮" method="id" value="typeid1"></element>
+	<element id="1" name="开始年份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[2]/div/font[1]/span/span/a"></element>
+	<!-- <element id="1" name="开始年份一" method="id" value="_easyui_combobox_i1_0"></element> -->
+	<element id="1" name="开始月份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[2]/div/font[2]/span/span/a"></element>
+	<!-- <element id="1" name="开始月份四" method="id" value="_easyui_combobox_i2_3"></element> -->
+	<element id="1" name="结束年份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[2]/div/font[4]/span/span/a"></element>
+	<!-- <element id="1" name="结束年份一" method="id" value="_easyui_combobox_i3_0"></element> -->
+	<element id="1" name="结束月份选择按钮" method="xpath"
+		value=".//*[@id='contid1']/div[2]/div/font[5]/span/span/a"></element>
+	<!-- <element id="1" name="结束月份十二" method="id" value="_easyui_combobox_i4_11"></element> -->
+	<element id="1" name="查询面板-确定按钮" method="xpath"
+		value=".//*[@id='contid1']/p/a[1]"></element>
+	<element id="1" name="全选复选框" method="xpath"
+		value=".//*[@id='dataGrid']/div/div/div/div[2]/div[1]/div/table/tbody/tr/td[1]/div/input"></element>
+	<element id="1" name="期间损益结转按钮" method="xpath"
+		value=".//*[@id='btn_syjz'][1]"></element>
+	<element id="1" name="提示框" method="xpath"
+		value="//div[contains(@class,'messager-question')]"></element>
+	<element id="1" name="提示确定按钮" method="xpath"
+		value="//div[contains(@class,'messager-question')]/following-sibling::div/a[1]"></element>
+	<element id="1" name="操作提示" method="xpath" value="html/body/div[21]"></element>
+	<element id="1" name="开始年份选择悬浮层" method="xpath" value="html/body/div[8]/div"></element>
+	<element id="1" name="开始月份选择悬浮层" method="xpath" value="html/body/div[9]/div"></element>
+	<element id="1" name="结束年份选择悬浮层" method="xpath" value="html/body/div[10]/div"></element>
+	<element id="1" name="结束月份选择悬浮层" method="xpath" value="html/body/div[11]/div"></element>
+	<element id="1" name="反期间损益结转按钮" method="id" value="btn_syjzf"></element>
+	<element id="1" name="刷新按钮" method="xpath" value=".//*[@id='btn_syjz'][2]"></element>
+	<element id="1" name="汇兑损益调整按钮" method="id" value="btn_hd"></element>
+	<element id="1" name="反期间损益结转按钮" method="id" value="btn_syjzf"></element>
+	<element id="1" name="成本结转按钮" method="id" value="btn_cbjz"></element>
+	<element id="1" name="反成本结转按钮" method="id" value="btn_cbjzf"></element>
+	<element id="1" name="计提折旧按钮" method="id" value="btn_jiti"></element>
+	<element id="1" name="反计提折旧按钮" method="id" value="btn_jitif"></element>
+	<element id="1" name="汇兑调整面板-取消按钮" method="xpath" value=".//a[@onclick='ondlgcancel()']"></element>
+	<element id="1" name="期间列表table" method="xpath" value=".//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+	<element id="1" name="" method="" value=""></element>
+</page>

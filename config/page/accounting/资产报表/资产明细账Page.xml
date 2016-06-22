@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="1" name="查询按钮" method="id" value="typeid1"/>
+	<element id="1" name="查询面板-起始日期选择按钮" method="xpath" value="//input[@name='begindate1']/preceding-sibling::span/a"/>
+	<element id="1" name="查询面板-起始日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/parent::div)[1]"/>
+	<element id="1" name="查询面板-结束日期选择按钮" method="xpath" value="//input[@name='enddate']/preceding-sibling::span/a"/>
+	<element id="1" name="查询面板-结束日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/parent::div)[2]"/>
+	<element id="1" name="查询面板-资产名称输入框" method="xpath" value="//input[@id='zcname']/following-sibling::span/input[1]"/>
+	<element id="1" name="查询面板-资产类别选择按钮" method="xpath" value="//input[@id='zclb']/following-sibling::span//a"/>
+	<element id="1" name="资产类别面板-输入框" method="id" value="zcmc"/>
+	<element id="1" name="资产类别面板-确定按钮" method="xpath" value="//div[@id='zclb_dialog']/following-sibling::div//span[text()='确认']"/>
+	<element id="1" name="查询面板-资产属性输入框" method="xpath" value="//*[@id='zcsx']/following-sibling::span//input[1]"/>
+	<element id="1" name="查询面板-确定按钮" method="xpath" value=".//*[@id='contid1']//a[text()='确定']"/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+	<element id="1" name="" method="" value=""/>
+
+</page>

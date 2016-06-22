@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE page PUBLIC "pageElementLocator" "file:///E:/git/UITest/config/pageElementLocator.dtd"> -->
+<page id="1" name="原值变更" url="">
+	<!-- 功能按钮 -->
+	<element id="" name="查询按钮" method="id" value="jqj"></element>
+	<element id="" name="增加按钮" method="xpath" value="//a[@onclick='add()']"></element>
+	<element id="" name="刷新按钮" method="xpath" value="//a[@onclick='onRefresh()']"></element>
+	<element id="" name="删除按钮" method="xpath" value="//a[@onclick='del()']"></element>
+	<element id="" name="转总账按钮" method="xpath" value="//a[@onclick='onBoToGL()']"></element>
+	<element id="" name="联查凭证按钮" method="xpath" value="//a[@onclick='openVoucher()']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element name="" value="" method="" id=""></element>
+	
+	<!-- 查询面板 -->
+	<element id="" name="查询面板-开始日期选择按钮" method="xpath" value="//input[@id='startDate']/following-sibling::*//a"></element>
+	<element id="" name="查询面板-开始日期选择器" method="xpath" value="(//div[@class='calendar-header'])[1]/../../.."></element>
+	<element id="" name="查询面板-结束日期选择按钮" method="xpath" value="//input[@id='endDate']/following-sibling::*//a"></element>
+	<element id="" name="查询面板-结束日期选择器" method="xpath" value="(//div[@class='calendar-header'])[2]/../../.."></element>
+	<element id="" name="查询面板-资产选择按钮" method="xpath" value="//input[@id='qryassetcard']/following-sibling::*//a"></element>
+	<element id="" name="查询面板-卡片编码输入框" method="xpath" value="//input[@id='qryascode']/following-sibling::*/input[1]"></element>
+	<element id="" name="查询面板-确定按钮" method="xpath" value="//a[@onclick='reloadData()']"></element>
+	<element id="" name="" method="" value=""></element>
+	
+	<!-- 资产参照面板 -->
+	<element id="" name="资产参照面板-资产列表table" method="xpath" value=".//*[@id='selectZc']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="资产参照面板-确认按钮" method="xpath" value="//a[@onclick='selectZc();']"></element>
+	<element id="" name="" method="" value=""></element>
+	<!-- 新增面板 -->
+	<element id="" name="新增面板-资产卡片选择按钮" method="xpath" value="//input[@id='assetcard']/following-sibling::*//a"></element>
+	<element id="" name="新增面板-变更日期选择按钮" method="xpath" value="//input[@id='bdate']/following-sibling::*//a"></element>
+	<element id="" name="新增面板-变更日期时间选择器" method="xpath" value="(//div[@class='calendar-header'])[3]/../../.."></element>
+	<element id="" name="新增面板-变更后原值输入框" method="xpath" value="//input[@id='nvalue']/following-sibling::span/input[1]"></element>
+	<element id="" name="新增面板-保存按钮" method="xpath" value="//a[@onclick='save()']"></element>
+	<element id="" name="变更前原值输入框" method="name" value="ovalue"></element>
+	<element id="" name="" method="" value=""></element>
+	<!-- 数据区域 -->
+	<element id="" name="变更记录列表数table" method="xpath" value=".//*[@id='dataGrid']/div/div/div/div[1]/div[2]/div/table"></element>
+	<element id="" name="变更记录列表table" method="xpath" value=".//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="" method="" value=""></element>
+</page>

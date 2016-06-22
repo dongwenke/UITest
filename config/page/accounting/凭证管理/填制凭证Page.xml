@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="填制凭证" url="">
+	<element id="1" name="填制凭证iframe" method="name" value="填制凭证"></element>
+	<element id="2" name="凭证标题" method="xpath"
+		value="html/body/div[1]/div[2]/div[2]/div[1]/div[2]/h1"></element>
+	<element id="3" name="摘要第一行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[1]/td[2]"></element>
+	<element id="3" name="摘要第二行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[2]/td[2]"></element>
+	<element id="3" name="摘要第三行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[3]/td[2]"></element>
+	<element id="3" name="摘要第四行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[4]/td[2]"></element>
+
+	<element id="4" name="会计科目第一行" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[1]/td[4]"></element>
+	<element id="4" name="会计科目第二行" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[2]/td[4]"></element>
+	<element id="4" name="会计科目第三行" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[3]/td[4]"></element>
+	<element id="4" name="会计科目第四行" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[4]/td[4]"></element>
+
+	<element id="5" name="借方金额第一行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[1]/td[8]"></element>
+	<element id="5" name="借方金额第二行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[2]/td[8]"></element>
+	<element id="5" name="借方金额第三行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[3]/td[8]"></element>
+	<element id="5" name="借方金额第四行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[4]/td[8]"></element>
+
+	<element id="6" name="贷方金额第一行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[1]/td[9]"></element>
+	<element id="6" name="贷方金额第二行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[2]/td[9]"></element>
+	<element id="6" name="贷方金额第三行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[3]/td[9]"></element>
+	<element id="6" name="贷方金额第四行" method="xpath"
+		value="//*[@id='voucher']/tbody/tr[4]/td[9]"></element>
+
+	<element id="7" name="摘要提示框" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[2]/div"></element>
+	<element id="8" name="摘要选项一" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[2]/div/div[1]"></element>
+	<element id="8" name="摘要选项二" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[2]/div/div[2]"></element>
+	<element id="8" name="摘要选项三" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[2]/div/div[3]"></element>
+	<element id="8" name="摘要选项四" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[2]/div/div[4]"></element>
+
+	<element id="9" name="会计科目提示框" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[3]/div[1]"></element>
+	<element id="10" name="会计科目选项一" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[3]/div[1]/div[1]"></element>
+	<element id="10" name="会计科目选项二" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[3]/div[1]/div[2]"></element>
+	<element id="10" name="会计科目选项三" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[3]/div[1]/div[3]"></element>
+	<element id="10" name="会计科目选项四" method="xpath"
+		value=".//*[@id='COMBO_WRAP']/div[3]/div[1]/div[4]"></element>
+
+	<element id="11" name="借方金额第一行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[1]/td[8]/input"></element>
+	<element id="11" name="借方金额第二行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[2]/td[8]/input"></element>
+	<element id="11" name="借方金额第三行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[3]/td[8]/input"></element>
+	<element id="11" name="借方金额第四行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[4]/td[8]/input"></element>
+
+	<element id="12" name="贷方金额第一行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[1]/td[9]/input"></element>
+	<element id="12" name="贷方金额第二行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[2]/td[9]/input"></element>
+	<element id="12" name="贷方金额第三行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[3]/td[9]/input"></element>
+	<element id="12" name="贷方金额第四行输入框" method="xpath"
+		value=".//*[@id='voucher']/tbody/tr[4]/td[9]/input"></element>
+
+	<element id="" name="保存按钮" method="id" value="save"></element>
+	<element id="" name="打印按钮" method="id" value="print"></element>
+
+	<element id="" name="常用模板按钮" method="id" value="createWithTemp"></element>
+	<element id="" name="模板弹窗" method="id" value="cymbDialog"></element>
+	<element id="" name="模板列表" method="xpath"
+		value=".//*[@id='cymbDialog']/div/div/div/div[2]/div[2]/table/tbody/tr"></element>
+	<element id="" name="模板金额输入框" method="xpath"
+		value=".//*[@id='cymbForm']/div/span/input[1]"></element>
+	<element id="" name="模板列表一" method="xpath"
+		value=".//*[@id='cymbDialog']/div/div/div/div[2]/div[2]/table/tbody/tr[1]/td[1]"></element>
+	<element id="" name="确定模板按钮" method="xpath"
+		value=".//*[@id='cymb_buttons']/a[1]"></element>
+
+	<element id="" name="按月复制按钮" method="id" value="copyByMonth"></element>
+	<element id="" name="按月复制按钮onSaved" method="id" value="copyByMonth1"></element>
+	<element id="" name="按月复制弹窗" method="id" value="ayfz"></element>
+	<element id="" name="开始年份选择按钮" method="xpath"
+		value=".//*[@id='ayfz']/p[1]/span[1]/span/a"></element>
+	<element id="" name="开始年份一" method="id" value="_easyui_combobox_i1_0"></element>
+	<element id="" name="开始月份选择按钮" method="xpath"
+		value=".//*[@id='ayfz']/p[1]/span[2]/span/a"></element>
+	<element id="" name="开始月份四" method="id" value="_easyui_combobox_i2_3"></element>
+	<element id="" name="目标年份选择按钮" method="xpath"
+		value=".//*[@id='ayfz']/p[2]/span[1]/span/a"></element>
+	<element id="" name="目标年份一" method="id" value="_easyui_combobox_i3_0"></element>
+	<element id="" name="目标月份选择按钮" method="xpath"
+		value=".//*[@id='ayfz']/p[2]/span[2]/span/a"></element>
+	<element id="" name="目标月份五" method="id" value="_easyui_combobox_i4_4"></element>
+	<element id="" name="确定按月复制按钮" method="id" value="doCopyByMonth"></element>
+	<element id="" name="凭证表格" method="xpath" value="//*[@id='voucher']/tbody"></element>
+
+	<element id="" name="单据图片面板-取消按钮" method="xpath"
+		value=".//*[@id='tpcx_buttons']/a[2]/span/span"></element>
+	<element id="" name="单据图片按钮" method="id" value="hoverRelPic"></element>
+	<element id="" name="复制按钮" method="id" value="copy"></element>
+	<element id="" name="删除按钮" method="id" value="delete"></element>
+	<element id="" name="删除警告面板" method="xpath"
+		value="html/body/div[contains(.,'您确认要删除此凭证吗？')]"></element>
+	<element id="" name="审核按钮" method="id" value="audit"></element>
+	<element id="" name="已审核章" method="xpath"
+		value=".//div[@id='tag'][@class='has-audit']"></element>
+	<element id="" name="保存为常用凭证模版按钮" method="id" value="crePzTemplate"></element>
+	<element id="" name="模版编码输入框" method="xpath"
+		value=".//*[@id='newTemplate']/p[1]/span/input[1]"></element>
+	<element id="" name="模版名称输入框" method="xpath"
+		value=".//*[@id='newTemplate']/p[2]/span/input[1]"></element>
+	<element id="" name="新增模版面板-保存按钮" method="id" value="addNewTemp"></element>
+	<element id="" name="期间损益结转完成提示" method="xpath"
+		value="//div[contains(.,'期间损益结转已完成，是否继续？？')]"></element>
+	<element id="" name="期间损益结转完成提示面板-确定按钮" method="xpath"
+		value="//div[contains(.,'期间损益结转已完成，是否继续？？')]/div/a[contains(span,'确定')]"></element>
+	<element id="" name="反审核按钮" method="id" value="revAudit"></element>
+	<element id="" name="日期输入框" method="id" value="vch_date"></element>
+	<element id="" name="科目属性" method="id" value="isItem"></element>
+	<element id="" name="存货输入框" method="xpath" value=".//*[@id='itemCH']/input"></element>
+	<element id="" name="库存商品一" method="xpath" value=".//*[@id='COMBO_WRAP']/div[4]/div[1]/div[1]"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

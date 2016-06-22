@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="" name="用户信息" method="xpath"
+		value=".//*[@id='main_container']/div[1]/div[2]/ul/li[3]/span"></element>
+	<element id="" name="客户管理菜单" method="xpath"
+		value=".//div[contains(.,'客户管理')]/span[contains(.,'客户管理')]"></element>
+	<element id="" name="管理报表菜单" method="xpath"
+		value=".//div[contains(.,'管理报表')]/span[contains(.,'管理报表')]"></element>
+	<element id="" name="系统管理菜单" method="xpath"
+		value=".//div[contains(.,'系统管理')]/span[contains(.,'系统管理')]"></element>
+
+	<element id="" name="我的客户子菜单" method="xpath"
+		value=".//div[contains(@onclick,'我的客户')]"></element>
+	<element id="" name="全部标签页" method="xpath"
+		value=".//*[@id='main']/div[1]/div[3]/ul"></element>
+
+	<element id="" name="收款管理iframe" method="xpath"
+		value=".//iframe[contains(@src,'skgl.jsp')]"></element>
+	<element id="" name="我的客户iframe" method="xpath"
+		value=".//iframe[contains(@src,'sys_corp.jsp')]"></element>
+	<element id="" name="建账调整子菜单" method="xpath"
+		value=".//div[contains(@onclick,'建账调整')]"></element>
+	<element id="" name="" method="xpath" value=""></element>
+	<element id="" name="" method="xpath" value=""></element>
+	<element id="" name="" method="xpath" value=""></element>
+	<element id="" name="" method="xpath" value=""></element>
+	<element id="" name="" method="xpath" value=""></element>
+
+</page>

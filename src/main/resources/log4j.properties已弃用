@@ -1,0 +1,52 @@
+#Log4j配置文件实现了输出到控制台、文件、回滚文件、发送日志邮件、输出到数据库日志表、自定义标签等全套功能。
+log4j.rootLogger=INFO,console,dailyFile,logFile
+log4j.additivity.org.apache=true
+# 控制台(console)
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.Threshold=INFO
+log4j.appender.console.ImmediateFlush=true
+log4j.appender.console.Target=System.out
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=[%-5p] [%d{yyyy-MM-dd HH:mm:ss}] [%F:%L] %m %n
+
+# 全部日志文件(logFile)
+log4j.appender.logFile=org.apache.log4j.FileAppender
+log4j.appender.logFile.Threshold=INFO
+log4j.appender.logFile.ImmediateFlush=true
+log4j.appender.logFile.Append=true
+log4j.appender.logFile.Encoding=UTF-8
+log4j.appender.logFile.File=C:/log4j/log4j-all.log
+log4j.appender.logFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logFile.layout.ConversionPattern=[%-5p] [%d{yyyy-MM-dd HH:mm:ss}] [%F:%L] %m %n
+
+# 错误日志文件(logFile)
+log4j.appender.logFile=org.apache.log4j.FileAppender
+log4j.appender.logFile.Threshold=WARN
+log4j.appender.logFile.ImmediateFlush=true
+log4j.appender.logFile.Append=true
+log4j.appender.logFile.Encoding=UTF-8
+log4j.appender.logFile.File=C:/log4j/log4j-warn.log
+log4j.appender.logFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logFile.layout.ConversionPattern=[%-5p] [%d{yyyy-MM-dd HH:mm:ss}] [%F:%L] %m %n
+
+# 回滚文件(rollingFile)
+log4j.appender.rollingFile=org.apache.log4j.RollingFileAppender
+log4j.appender.rollingFile.Threshold=INFO
+log4j.appender.rollingFile.ImmediateFlush=true
+log4j.appender.rollingFile.Append=true
+log4j.appender.rollingFile.Encoding=UTF-8
+log4j.appender.rollingFile.File=C:/log4j/log4j.log
+log4j.appender.rollingFile.MaxFileSize=200KB
+log4j.appender.rollingFile.MaxBackupIndex=50
+log4j.appender.rollingFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.rollingFile.layout.ConversionPattern=[%-5p] [%d{yyyy-MM-dd HH:mm:ss}] [%F:%L] %m %n
+# 定期回滚日志文件(dailyFile)
+log4j.appender.dailyFile=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.dailyFile.Threshold=INFO
+log4j.appender.dailyFile.ImmediateFlush=true
+log4j.appender.dailyFile.Append=true
+log4j.appender.dailyFile.Encoding=UTF-8
+log4j.appender.dailyFile.File=C:/log4j/log4j.log
+log4j.appender.dailyFile.DatePattern='.'yyyy-MM-dd
+log4j.appender.dailyFile.layout=org.apache.log4j.PatternLayout
+log4j.appender.dailyFile.layout.ConversionPattern=[%-5p] [%d{yyyy-MM-dd HH:mm:ss}] [%F:%L] %m %n

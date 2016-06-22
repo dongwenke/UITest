@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<element id="1" name="查询按钮" method="id" value="typeid1" />
+	<element id="1" name="查询面板-起始日期选择按钮" method="xpath" value=".//*[@id='contid1']/div[1]/div/font[1]/span/span/a" />
+	<element id="1" name="查询面板-起始日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/parent::div)[1]" />
+	<element id="1" name="查询面板-结束日期选择按钮" method="xpath" value=".//*[@id='contid1']/div[1]/div/font[3]/span/span/a" />
+	<element id="1" name="查询面板-结束日期时间选择器" method="xpath" value="(//div[@class='calendar-header']/parent::div)[2]" />
+	<element id="1" name="查询面板-固定资产输入框" method="xpath" value=".//*[@id='contid1']/div[3]/font/span/input[1]" />
+	<element id="1" name="查询面板-确定按钮" method="xpath" value=".//*[@id='contid1']/p/a[1]" />
+	<element id="1" name="查询面板-资产属性选项-固定资产" method="xpath" value="//div[text()='固定资产' and contains(@class,'combobox-item') and starts-with(@id,'_easyui_combobox_')]" />
+	<element id="1" name="查询面板-资产属性选项-无形资产" method="xpath" value="//div[text()='无形资产' and contains(@class,'combobox-item') and starts-with(@id,'_easyui_combobox_')]" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+	<element id="1" name="" method="" value="" />
+
+</page>

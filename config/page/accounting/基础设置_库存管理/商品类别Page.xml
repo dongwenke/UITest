@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<!-- 功能按钮 -->
+	<element id="" name="增加按钮" method="xpath" value="//a[@onclick='add()']"></element>
+	<element id="" name="修改按钮" method="xpath" value="//a[@onclick='edit()']"></element>
+	<element id="" name="删除按钮" method="xpath" value="//a[@onclick='del()']"></element>
+	<element id="" name="刷新按钮" method="xpath" value="//a[@onclick='load()']"></element>
+	
+	<!--  -->
+	<element id="" name="分类列表table" method="xpath" value="(//table)[4]"></element>
+	<element id="" name="分类列表数table" method="xpath" value="(//table)[2]"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<!-- 提示信息 -->
+	<element id="" name="确认删除按钮" method="xpath" value="//div[text()='确认删除?']/following-sibling::div/a[*='确定']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<!-- 编辑面板 -->
+	<element id="" name="修改分类面板-编码输入框" method="xpath" value="//input[@id='flbm']/following-sibling::span/input[not(@type='hidden')]"></element>
+	<element id="" name="修改分类面板-名称输入框" method="xpath" value="//input[@id='lbmc']/following-sibling::span/input[not(@type='hidden')]"></element>
+	<element id="" name="修改分类面板-备注输入框" method="xpath" value="//input[@id='mark']/following-sibling::span/input[not(@type='hidden')]"></element>
+	<element id="" name="修改分类面板-保存按钮" method="xpath" value="//a[@onclick='onSave(true)']"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

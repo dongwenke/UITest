@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="" url="">
+	<!-- 下方统计信息 -->
+	<element id="" name="统计信息" method="xpath" value=".//*[@id='dataGrid']/form/div/div/div[2]/div[1]"/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 功能按钮 -->
+	<element id="" name="增加按钮" method="id" value="addProduct"/>
+	<element id="" name="修改按钮" method="id" value="updateProduct"/>
+	<element id="" name="删除按钮" method="id" value="deleteProduct"/>
+	<element id="" name="保存按钮" method="id" value="saveProduct"/>
+	<element id="" name="取消按钮" method="id" value="cancelProduct"/>
+	<element id="" name="删行按钮" method="id" value="deleteRow"/>
+	<element id="" name="刷新按钮" method="id" value="refresh"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 数据表格区域 -->
+	<element id="" name="商品列表table" method="xpath" value=".//*[@id='dataGrid']/form/div/div/div[1]/div[2]/div[2]/table"/>
+	<element id="" name="商品列表数table" method="xpath" value=".//*[@id='dataGrid']/form/div/div/div[1]/div[1]/div[2]/div/table"/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 弹窗 -->
+	<element id="" name="选择科目table" method="xpath" value=".//*[@id='selectKm']/div/div/div/div[2]/div[2]/table"/>
+	<element id="" name="选择科目面板-保存按钮" method="xpath" value="//a[@onclick='selectKm();']"/>
+	<element id="" name="选择分类table" method="xpath" value=".//*[@id='selectInvcl']/div/div/div/div[2]/div[2]/table"/>
+	<element id="" name="选择分类面板-保存按钮" method="xpath" value="//div[@id='selectInvcl']/following-sibling::div/a[span='确认']"/>
+	<element id="" name="选择计量单位table" method="xpath" value=".//*[@id='selectDw']/div/div/div/div[2]/div[2]/table"/>
+	<element id="" name="选择计量单位面板-保存按钮" method="xpath" value="//a[@onclick='selectDw();']"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 提示 -->
+	<element id="" name="确认删除按钮" method="xpath" value="//div[text()='你确定要删除吗?']/following-sibling::div/a[span='确定']"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+</page>

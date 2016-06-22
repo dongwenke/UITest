@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="出库单" url="">
+	<!-- 查询区域 -->
+	<element id="" name="查询按钮" method="id" value="jqj"/>
+	<element id="" name="查询面板-起始日期选择按钮" method="xpath" value=".//*[@id='qrydialog']/div[1]/div/font[1]/span/span/a"/>
+	<element id="" name="查询面板-结束日期选择按钮" method="xpath" value=".//*[@id='qrydialog']/div[1]/div/font[3]/span/span/a"/>
+	<element id="" name="查询面板-起始日期时间选择器" method="xpath" value="(//div[@class='calendar-header'])[1]/parent::*/parent::*/parent::*/parent::*"/>
+	<element id="" name="查询面板-结束日期时间选择器" method="xpath" value="(//div[@class='calendar-header'])[2]/parent::*/parent::*/parent::*/parent::*"/>
+	<element id="" name="查询面板-商品选择按钮" method="xpath" value=".//*[@id='qrydialog']/div[2]/font/span/span/a"/>
+	<element id="" name="查询面板-确定按钮" method="xpath" value=".//*[@id='qrydialog']/p/a[1]"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+	
+	<!-- 弹窗 -->
+	<element id="" name="选择商品table" method="xpath" value=".//*[@id='selInv']/div/div/div/div[2]/div[2]/table"/>
+	<element id="" name="选择商品面板-确认按钮" method="xpath" value=".//*[@id='inventory-buttons']/a[1]"/>
+	<element id="" name="" method="" value=""/>
+	<element id="" name="" method="" value=""/>
+
+</page>

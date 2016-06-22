@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="登录页面" url="http://172.16.2.142:8090/dzfadmin/">
+	<element id="" name="用户名输入框" method="id" value="user_code"></element>
+	<element id="" name="密码输入框" method="id" value="user_password"></element>
+	<element id="" name="登录按钮" method="xpath" value="//button[contains(.,'登录')]"></element>
+	<element id="" name="已登录提示" method="xpath"
+		value="html/body/div[10]/div[2]/div[2]"></element>
+	<element id="" name="确认强制退出" method="xpath"
+		value="html/body/div[10]/div[2]/div[4]/a[1]"></element>
+	<element id="" name="选择公司面板-搜索输入框" method="id" value="unitcode"></element>
+	<element id="" name="选择公司面板-公司列表" method="xpath"
+		value=".//*[@id='dataGrid']/div/div/div/div[2]/div[2]/table"></element>
+	<element id="" name="确定所选公司" method="xpath"
+		value=".//*[@id='cp_buttons']/a[1]"></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+	<element id="" name="" method="" value=""></element>
+</page>

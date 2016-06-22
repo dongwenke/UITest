@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="常用凭证模板" url="">
+	<element id="" name="常用凭证模板iframe" method="name" value="常用凭证模板"></element>
+	<element id="" name="增加按钮" method="xpath"
+		value=".//*[@id='List_panel']/div/div[1]/div/div/div/div[2]/a[1]"></element>
+	<element id="" name="修改按钮" method="xpath"
+		value=".//*[@id='List_panel']/div/div[1]/div/div/div/div[2]/a[2]"></element>
+	<element id="" name="删除按钮" method="id"
+		value=".//*[@id='List_panel']/div/div[1]/div/div/div/div[2]/a[3]"></element>
+	<element id="" name="卡片显示按钮" method="id"
+		value=".//*[@id='List_panel']/div/div[1]/div/div/div/div[2]/a[4]"></element>
+	<element id="" name="保存按钮" method="id" value="savebutn"></element>
+	<element id="" name="取消按钮" method="id" value="cancelbutn"></element>
+	<element id="" name="增行按钮" method="id" value="addrowbutn" />
+	<element id="" name="删行按钮" method="id" value="delrowbutn" />
+	<element id="" name="" method="" value="" />
+	<element id="" name="" method="" value="" />
+	<element id="" name="" method="" value="" />
+	<element id="" name="" method="" value="" />
+	<element id="" name="" method="" value="" />
+	<element id="" name="" method="" value="" />
+</page>

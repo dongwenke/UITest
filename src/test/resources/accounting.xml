@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test" preserve-order="true">
+
+	<packages>
+		<package name="com.dzf.test.*"></package>
+	</packages>
+
+	<test name="test" enabled="true" preserve-order="true">
+		<classes>
+			<class name="temp.测试case中文名"></class>
+		</classes>
+	</test>
+	<listeners>
+		<!-- reportNg Listener -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<!-- arrow Listener -->
+		<listener class-name="com.netease.qa.testng.TestResultListener" />
+		<listener class-name="com.netease.qa.testng.RetryListener" />
+		<listener class-name="com.netease.qa.testng.PowerEmailableReporter" />
+		<!-- self Listener -->
+<!-- 		<listener class-name="com.dzf.test.util.testng.ScreenShotListener" /> -->
+	</listeners>
+</suite>

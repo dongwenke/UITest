@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page id="1" name="主页面" url="">
+	<!-- 登录页面 -->
+	<element id="1" name="用户名输入框" method="id" value="user_code"></element>
+
+	<!-- 顶部 -->
+	<element id="12" name="logo" method="id" value="logo_div"></element>
+	<element id="1" name="用户信息" method="id" value="user_info"></element>
+	<element id="1" name="用户信息与退出" method="xpath"
+		value="//li[@class='drop_down_block']"></element>
+	<element id="" name="退出按钮" method="xpath"
+		value="//a[@href='/dzfkj/sys/sm_user!logout.action']"></element>
+	<element id="2" name="导航栏" method="id" value="sidebar"></element>
+	<element id="11" name="标题栏全部项" method="xpath"
+		value=".//*[@id='main']/div[1]/div[3]/ul/li"></element>
+	<element id="12" name="标题栏首页" method="xpath"
+		value=".//*[@id='main']/div[1]/div[3]/ul/li[1]/a/span[1]"></element>
+	<element id="" name="全部标签页" method="xpath"
+		value=".//*[@id='main']/div[1]/div[3]/ul"></element>
+	<element id="" name="快速切换按钮" method="xpath"
+		value=".//*[@id='main_container']/div[1]/div[2]/ul/li[5]/a"></element>
+	<element id="" name="快速切换-日期选择按钮" method="xpath"
+		value=".//*[@id='ksdl']/p[1]/span/span/a"></element>
+	<element id="" name="快速切换-年月选择按钮" method="xpath"
+		value="html/body/div[10]/div/div[1]/div/div[1]/div[5]/span"></element>
+	<element id="" name="快速切换-十二月" method="xpath"
+		value="html/body/div[10]/div/div[1]/div/div[2]/div/div[2]/table/tbody/tr[3]/td[4]"></element>
+	<element id="" name="快速切换-31号" method="xpath"
+		value="html/body/div[10]/div/div[1]/div/div[2]/table/tbody/tr[5]/td[7]"></element>
+	<element id="" name="快速切换-确定按钮" method="xpath"
+		value=".//*[@id='qhan_buttons']/a[1]"></element>
+	<element id="" name="公司名称" method="id" value="corp_name"></element>
+
+	<!-- 左侧大类 -->
+	<element id="3" name="总账" method="xpath"
+		value=".//*[@id='sidebar']/div[contains(.,'总账')]/div[1]/div[1]"></element>
+	<element id="4" name="固定资产" method="xpath"
+		value=".//*[@id='sidebar']/div[contains(.,'固定资产')]/div[1]/div[1]"></element>
+	<element id="5" name="库存管理" method="xpath"
+		value=".//*[@id='sidebar']/div[contains(.,'库存管理')]/div[1]/div[1]"></element>
+
+	<!-- 左侧小类 -->
+	<element id="6" name="凭证管理" method="xpath"
+		value=".//*[@id='总账_WDZF02SS0ESS00000EE00065']/a"></element>
+	<element id="" name="基础设置-总账" method="xpath"
+		value=".//*[@id='总账_WDZF02SS0ESS00000EE00005']/a"></element>
+	<element id="" name="结账办理" method="xpath"
+		value=".//*[@id='总账_WDZF02SS0ESS00000EE00089']/a"></element>
+	<element id="" name="财务账表" method="xpath"
+		value=".//*[@id='总账_WDZF02SS0ESS00000EE00141']/a"></element>
+	<element id="" name="科目账表" method="xpath"
+		value=".//*[@id='总账_WDZF02SS0ESS00000EE00105']/a"></element>
+	<element id="" name="资产管理" method="xpath"
+		value=".//*[@id='固定资产_WDZF02SS0ESS00000EE00181']/a"></element>
+	<element id="" name="资产报表" method="xpath"
+		value=".//*[@id='固定资产_WDZF02SS0ESS00000EE00197']/a"></element>
+	<element id="" name="基础设置-库存管理" method="xpath"
+		value=".//*[@id='库存管理_WDZF02SS0ESS00000EE00221']/a" />
+	<element id="" name="日常业务" method="xpath"
+		value=".//*[@id='库存管理_WDZF02SS0ESS00000EE00241']/a" />
+	<element id="" name="库存报表" method="xpath"
+		value=".//*[@id='库存管理_WDZF02SS0ESS00000EE00253']/a" />
+
+
+	<!-- 悬浮按钮 -->
+	<element id="7" name="填制凭证悬浮" method="id" value="填制凭证"></element>
+	<element id="8" name="凭证管理悬浮" method="id" value="凭证管理"></element>
+	<element id="9" name="图片浏览悬浮" method="id" value="图片浏览"></element>
+	<element id="10" name="上传图片悬浮" method="id" value="上传图片"></element>
+	<element id="" name="常用凭证模板悬浮" method="id" value="常用凭证模板"></element>
+	<element id="" name="科目期初余额悬浮" method="id" value="期初开账-科目期初余额"></element>
+	<element id="" name="期末处理悬浮" method="id" value="期末处理"></element>
+	<element id="" name="总账期末结账悬浮" method="id" value="总账期末结账"></element>
+	<element id="" name="会计科目悬浮" method="id" value="会计科目"></element>
+	<element id="" name="汇率档案悬浮" method="id" value="汇率档案"></element>
+	<element id="" name="利润表季报悬浮" method="id" value="利润表季报"></element>
+	<element id="" name="利润表悬浮" method="id" value="利润表"></element>
+	<element id="" name="收入支出表悬浮" method="id" value="收入支出表"></element>
+	<element id="" name="现金流量表悬浮" method="id" value="现金流量表"></element>
+	<element id="" name="业务活动表悬浮" method="id" value="业务活动表"></element>
+	<element id="" name="增值税和营业税月度申报对比表悬浮" method="id" value="增值税和营业税月度申报对比表"></element>
+	<element id="" name="资产负债表悬浮" method="id" value="资产负债表"></element>
+	<element id="" name="发生额及余额表悬浮" method="id" value="发生额及余额表"></element>
+	<element id="" name="科目汇总表悬浮" method="id" value="科目汇总表"></element>
+	<element id="" name="科目明细账悬浮" method="id" value="科目明细账"></element>
+	<element id="" name="科目总账悬浮" method="id" value="科目总账"></element>
+	<element id="" name="数量金额明细账悬浮" method="id" value="数量金额明细账"></element>
+	<element id="" name="数量金额总账悬浮" method="id" value="数量金额总账"></element>
+	<element id="" name="现金银行日记账悬浮" method="id" value="现金/银行日记账"></element>
+	<element id="" name="序时账悬浮" method="id" value="序时账"></element>
+	<!-- 库存管理 -->
+	<element id="" name="商品类别悬浮" method="id" value="商品类别"/>
+	<element id="" name="计量单位悬浮" method="id" value="计量单位"/>
+	<element id="" name="商品悬浮" method="id" value="商品"/>
+	<element id="" name="库存期初悬浮" method="id" value="库存期初"/>
+	<element id="" name="入库单悬浮" method="id" value="入库单"/>
+	<element id="" name="出库单悬浮" method="id" value="出库单"/>
+	<element id="" name="库存成本表悬浮" method="id" value="库存成本表"/>
+
+	<element id="" name="卡片管理悬浮" method="id" value="卡片管理"></element>
+	<element id="" name="原值变更悬浮" method="id" value="原值变更"></element>
+	<element id="" name="资产清理悬浮" method="id" value="资产清理"></element>
+	<element id="" name="工作量管理悬浮" method="id" value="工作量管理"></element>
+	<element id="" name="折旧汇总表悬浮" method="id" value="折旧汇总表"></element>
+	<element id="" name="资产明细账悬浮" method="id" value="资产明细账"></element>
+	<element id="" name="资产与总账对账表悬浮" method="id" value="资产与总账对账表"></element>
+	<element id="" name="资产折旧明细悬浮" method="id" value="资产折旧明细"></element>
+	<element id="" name="资产总账悬浮" method="id" value="资产总账"></element>
+
+
+	<!-- iframe -->
+	<element id="13" name="填制凭证iframe" method="name" value="填制凭证"></element>
+	<element id="14" name="凭证管理iframe" method="name" value="凭证管理"></element>
+
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="id" value="汇率档案"></element>
+	<element id="" name="" method="" value="" />
+</page>
