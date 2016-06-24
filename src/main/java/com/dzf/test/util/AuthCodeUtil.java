@@ -16,6 +16,11 @@ import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 
 public class AuthCodeUtil {
+	
+	/*
+	 * 防止实例化
+	 */
+	private AuthCodeUtil(){}
 
 	public static byte[] takeScreenshot(WebDriver driver) throws IOException {
 		WebDriver augmentedDriver = new Augmenter().augment(driver);
@@ -42,7 +47,6 @@ public class AuthCodeUtil {
 			Tesseract instance = new Tesseract(); // JNA Interface Mapping
 			String result = instance.doOCR(bi);
 			result = result.replace(" ", "").replace("\n", "");
-			System.out.println(result);
 			return result;
 		} catch (IOException e) {
 			e.printStackTrace();

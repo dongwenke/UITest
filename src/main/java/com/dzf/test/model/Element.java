@@ -6,7 +6,9 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-//页面控件
+/**
+ * 页面元素 将xml中的element转化为java对象
+ */
 @XmlType(name = "element")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "element")
@@ -20,7 +22,7 @@ public class Element {
 	// 定位控件方法
 	@XmlAttribute
 	private String method;
-	// 定位�?
+	// 定位控件值
 	@XmlAttribute
 	private String value;
 

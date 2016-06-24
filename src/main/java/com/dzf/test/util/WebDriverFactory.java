@@ -74,7 +74,7 @@ public class WebDriverFactory {
 	}
 
 	public static WebDriver createChrome() {
-		System.setProperty("webdriver.chrome.driver", "/driver/chromedriver_v2.15.322448.exe");
+		System.setProperty("webdriver.chrome.driver", "driver/chromedriver_v2.15.322448.exe");
 		return new ChromeDriver();
 	}
 
@@ -83,7 +83,7 @@ public class WebDriverFactory {
 		// 设置IE启动时的参数,去掉保护模式
 		DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 		ieCapabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
-
+		ieCapabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 		return new InternetExplorerDriver(ieCapabilities);
 	}
 

@@ -16,6 +16,10 @@ import com.dzf.test.util.MyException;
 import com.dzf.test.util.StringUtil;
 import com.dzf.test.util.highlightElementUtil;
 
+
+/**
+ * 操作页面元素的类，所有页面都继承该类
+ */
 public class Handler extends WebDriverModel implements IHandler, ILogUtil {
 	public Page page;
 

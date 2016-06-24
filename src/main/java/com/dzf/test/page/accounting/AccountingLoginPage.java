@@ -32,13 +32,22 @@ public class AccountingLoginPage extends Handler {
 		page = XMLUtil.convert(xmlfile, Page.class);
 	}
 
-	/*
+	/**
 	 * 不使用日期登录，默认使用当前日期
 	 */
 	public boolean login(String username, String password, String company) throws InterruptedException, MyException {
 		return login(username, password, company, null);
 	}
 
+	/**
+	 * @param username
+	 * @param password
+	 * @param company
+	 * @param date
+	 * @return
+	 * @throws InterruptedException
+	 * @throws MyException
+	 */
 	public boolean login(String username, String password, String company, String date)
 			throws InterruptedException, MyException {
 		try {
@@ -64,6 +73,13 @@ public class AccountingLoginPage extends Handler {
 		}
 	}
 
+	/**
+	 * @param username
+	 * @param password
+	 * @param company
+	 * @param date
+	 * @return
+	 */
 	public boolean loginByCookies(String username, String password, String company, String date) {
 
 		try {
@@ -89,6 +105,15 @@ public class AccountingLoginPage extends Handler {
 
 	}
 
+	/**
+	 * @param name
+	 * @param password
+	 * @param company
+	 * @param date
+	 * @return
+	 * @throws InterruptedException
+	 * @throws MyException
+	 */
 	public boolean loginNormal(String name, String password, String company, String date)
 			throws InterruptedException, MyException {
 		// 打开登录页面
@@ -115,7 +140,7 @@ public class AccountingLoginPage extends Handler {
 		} else {
 			count = Math.abs(Integer.valueOf(authCodeRetryCount));
 		}
-		
+
 		for (int i = 0; i < count; i++) {
 			try {
 				WebElement authcode = getWebElement(By.id("codeImg"));
@@ -127,8 +152,13 @@ public class AccountingLoginPage extends Handler {
 
 			// 点击登录按钮
 			click("登录按钮");
+
 			if (!isDisplayed(By.xpath("//div[contains(.,'验证码错误')]"))) {
 				break;
+			} else {
+				if (isDisplayed("已登录提示") || isDisplayed("选择公司面板-公司列表")) {
+					break;
+				}
 			}
 		}
 
@@ -154,11 +184,13 @@ public class AccountingLoginPage extends Handler {
 		// 点击确定
 		click("确定所选公司");
 
-		return isDisplayed("用户信息");
+		return waitToDisplayed("用户信息");
 	}
 
-	/*
-	 *
+	/**
+	 * @param username
+	 * @param company
+	 * @param date
 	 */
 	private void addcookies(String username, String company, String date) {
 
@@ -188,6 +220,12 @@ public class AccountingLoginPage extends Handler {
 		}
 	}
 
+	/**
+	 * @param username
+	 * @param company
+	 * @param date
+	 * @throws Exception
+	 */
 	public void getCookies(String username, String company, String date) throws Exception {
 
 		File file = new File("config/cookies.data");

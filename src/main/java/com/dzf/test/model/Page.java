@@ -4,7 +4,13 @@ import java.util.*;
 
 import javax.xml.bind.annotation.*;
 
-//页面
+
+/**
+ * 页面元素 将xml中的element转化为java对象
+ * 
+ * @author Administrator
+ * 
+ */
 @XmlType(name = "page")
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "page")

@@ -228,9 +228,10 @@
 	</test>
 
 	<test name="scenery3" enabled="true" preserve-order="true">
-		<parameter name="用户名" value="kk0001"></parameter>
-		<parameter name="密码" value="kk0001!!"></parameter>
-		<parameter name="公司名称" value="13小企业商贸启用库存"></parameter>
+		<parameter name="用户名" value="xmgs001"></parameter>
+		<parameter name="密码" value="qwe123!@#"></parameter>
+		<parameter name="公司名称" value="测试小企业07"></parameter> 
+<!-- 		<parameter name="公司名称" value="13小企业商贸启用库存"></parameter>  -->
 		<classes>
 			<class name="com.dzf.test.testcase.SuiteConfig"></class>
 			<class name="com.dzf.test.testscenery.TestScenery3">

@@ -9,7 +9,6 @@ import java.util.List;
 
 public class DateCalculatorUtil {
 
-    
     public static List<String> dateToStrList(String beginDate,String endDate) throws ParseException {
         List<String> strDateList = new ArrayList<String>();
     	
@@ -33,8 +32,6 @@ public class DateCalculatorUtil {
         	strDateList.add(strDate);
         }
        
-        System.out.println(strDateList);
-        
 		return strDateList;
     }
     
