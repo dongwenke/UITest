@@ -97,18 +97,18 @@
 			<artifactId>tess4j</artifactId>
 			<version>3.2.1</version>
 			<exclusions>
-<!-- 				<exclusion> -->
-<!-- 					<groupId>org.slf4j</groupId> -->
-<!-- 					<artifactId>log4j-over-slf4j</artifactId> -->
-<!-- 				</exclusion> -->
-<!-- 				<exclusion> -->
-<!-- 					<groupId>org.slf4j</groupId> -->
-<!-- 					<artifactId>jcl-over-slf4j</artifactId> -->
-<!-- 				</exclusion> -->
-<!-- 				<exclusion> -->
-<!-- 					<groupId>org.slf4j</groupId> -->
-<!-- 					<artifactId>jul-to-slf4j</artifactId> -->
-<!-- 				</exclusion> -->
+				<!-- <exclusion> -->
+				<!-- <groupId>org.slf4j</groupId> -->
+				<!-- <artifactId>log4j-over-slf4j</artifactId> -->
+				<!-- </exclusion> -->
+				<!-- <exclusion> -->
+				<!-- <groupId>org.slf4j</groupId> -->
+				<!-- <artifactId>jcl-over-slf4j</artifactId> -->
+				<!-- </exclusion> -->
+				<!-- <exclusion> -->
+				<!-- <groupId>org.slf4j</groupId> -->
+				<!-- <artifactId>jul-to-slf4j</artifactId> -->
+				<!-- </exclusion> -->
 			</exclusions>
 		</dependency>
 
@@ -116,20 +116,6 @@
 
 	<build>
 		<resources>
-<!-- 			<resource> -->
-<!-- 				资源路径，原生maven工程其实不需要单独设置，java工程转换而来的需要设置，否则找不到， 因为maven是典型的约定编程，遵循约定优于配置 -->
-<!-- 				<directory>${project.basedir}/config</directory> -->
-<!-- 				资源打包后在jar中的路径，这里比较坑爹，之前没设置，结果生成到了jar的根路径下， 而在访问的时候仍然使用的是directory的路径 -->
-<!-- 				<targetPath>${project.build.directory}/config</targetPath> -->
-<!-- 			</resource> -->
-			
-<!-- 			<resource> -->
-<!-- 				资源路径，原生maven工程其实不需要单独设置，java工程转换而来的需要设置，否则找不到， 因为maven是典型的约定编程，遵循约定优于配置 -->
-<!-- 				<directory>${project.basedir}/tessdata</directory> -->
-<!-- 				资源打包后在jar中的路径，这里比较坑爹，之前没设置，结果生成到了jar的根路径下， 而在访问的时候仍然使用的是directory的路径 -->
-<!-- 				<targetPath>${project.build.directory}/tessdata</targetPath> -->
-<!-- 			</resource> -->
-
 			<resource>
 				<directory>${project.basedir}</directory>
 				<includes>
@@ -171,7 +157,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.5</version>
 				<configuration>
-<!-- 					<skip>true</skip> -->
+					<skip>true</skip>
 					<suiteXmlFiles>
 						<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
