@@ -7,7 +7,6 @@
 	<name>dzf-UITest</name>
 	<description>大账房-UI自动化测试</description>
 
-
 	<properties>
 		<argLine>-Dfile.encoding=UTF-8</argLine><!-- 不指定则console输出乱码 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,45 +24,17 @@
 	<dependencies>
 
 		<dependency>
-			<groupId>org.uncommons</groupId>
-			<artifactId>reportng</artifactId>
-			<version>0.1.0-self</version>
-			<type>jar</type>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/libs/reportng-0.1.0-self.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>velocity</groupId>
-			<artifactId>velocity</artifactId>
-			<version>1.4</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.google.inject</groupId>
-			<artifactId>guice</artifactId>
-			<version>3.0</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>[6.9.10,)</version>
-		</dependency>
-
-		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>LATEST</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-htmlunit-driver</artifactId>
 			<version>LATEST</version>
 		</dependency>
-
+		
 		<dependency>
 			<groupId>com.github.detro</groupId>
 			<artifactId>phantomjsdriver</artifactId>
@@ -75,13 +46,22 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
+		
 		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>[6.9.10,)</version>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>org.uncommons</groupId>
+			<artifactId>reportng</artifactId>
+			<version>0.1.0-self</version>
+			<type>jar</type>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/reportng-0.1.0-self.jar</systemPath>
+		</dependency>
+		
 		<dependency>
 			<groupId>arrow</groupId>
 			<artifactId>arrow</artifactId>
@@ -90,6 +70,35 @@
 			<scope>system</scope>
 			<systemPath>${project.basedir}/libs/arrow-0.1.0.jar</systemPath>
 		</dependency>
+
+		<dependency>
+			<groupId>velocity</groupId>
+			<artifactId>velocity</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.google.inject</groupId> -->
+<!-- 			<artifactId>guice</artifactId> -->
+<!-- 			<version>3.0</version> -->
+<!-- 			<scope>test</scope> -->
+<!-- 		</dependency> -->
+
+		
+
+		
+
+		
+
+		
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		
 
 		<!-- https://mvnrepository.com/artifact/net.sourceforge.tess4j/tess4j -->
 		<dependency>

@@ -135,10 +135,10 @@ public class AccountingLoginPage extends Handler {
 		int count;
 		if (null == authCodeRetryCount || "".equals(authCodeRetryCount)) {
 			count = 1;
-		} else if ("always".equals(authCodeRetryCount)) {
+		} else if (Integer.valueOf(authCodeRetryCount) < 0) {
 			count = 1000000;
 		} else {
-			count = Math.abs(Integer.valueOf(authCodeRetryCount));
+			count = Integer.valueOf(authCodeRetryCount);
 		}
 
 		for (int i = 0; i < count; i++) {

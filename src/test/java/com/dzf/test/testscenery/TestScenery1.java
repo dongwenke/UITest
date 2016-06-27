@@ -45,7 +45,7 @@ public class TestScenery1 {
 	private 填制凭证Page 填制凭证;
 	private 凭证管理Page 凭证管理;
 	private 期末处理Page 期末处理;
-
+	
 	@BeforeClass
 	public void initAllPages() throws Exception {
 		mainPage = new AccountingMainPage();

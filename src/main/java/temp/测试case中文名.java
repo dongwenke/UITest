@@ -22,7 +22,7 @@ public class 测试case中文名 {
 		System.out.println(1);
 	}
 
-	@Test()
+	@Test(priority=1)
 	public void test1() {
 		Reporter.log("step1");
 		Reporter.log("step2");
@@ -30,7 +30,7 @@ public class 测试case中文名 {
 		Assert.assertEquals(1, 2);
 	}
 
-	@Test()
+	@Test(priority=2)
 	public void test2() {
 		Reporter.log("step1");
 		Reporter.log("step2");
@@ -38,7 +38,7 @@ public class 测试case中文名 {
 		Assert.assertEquals(2, 2);
 	}
 
-	@Test()
+	@Test(priority=1)
 	public void test3() {
 		Reporter.log("step1");
 		Reporter.log("step2");

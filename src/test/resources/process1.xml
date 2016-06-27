@@ -16,7 +16,7 @@
 			<class name="com.dzf.test.testscenery.TestScenery1">
 				<methods>
 					<include name="login"></include>
-
+	
 					<include name="test期初试算平衡">
 						<parameter name="科目一" value="1001_库存现金"></parameter>
 						<parameter name="币别一" value="人民币"></parameter>
